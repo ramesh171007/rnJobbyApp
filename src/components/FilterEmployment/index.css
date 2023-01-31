@@ -1,0 +1,12 @@
+.li-container {
+  list-style-type: none;
+  margin-left: -40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.checkBox-style {
+  padding: 50px;
+  margin-right: 5px;
+}

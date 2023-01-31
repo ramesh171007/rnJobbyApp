@@ -1,0 +1,32 @@
+.li-skills-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-left: -40px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.skill-image-style {
+  width: 20%;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .li-skills-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-left: -40px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  .skill-image-style {
+    width: 15%;
+    margin-right: 10px;
+  }
+}

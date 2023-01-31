@@ -1,0 +1,31 @@
+.similar-job-container {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.job-sim-item-card {
+  background-color: #202020;
+  border-radius: 8px;
+  padding: 10px;
+}
+.similar-job-item {
+  margin-left: -40px;
+  margin-bottom: 20px;
+}
+.job-item-sim-image-style {
+  width: 20%;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-sim-item-card {
+    width: 360px;
+  }
+  .similar-job-item {
+    margin: 10px;
+  }
+  .job-item-sim-image-style {
+    width: 20%;
+    margin-right: 10px;
+  }
+}

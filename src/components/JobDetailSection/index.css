@@ -1,0 +1,70 @@
+.detail-container {
+  background-color: black;
+  min-height: 100vh;
+}
+.visit-container {
+  display: flex;
+  align-items: center;
+}
+.desc-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.BiLink-style {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.visit-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #b6c5ff;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.simi-job {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .job-detail-card {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .job-item-card {
+    width: 1200px;
+    padding: 30px;
+  }
+  .job-item-image-style {
+    width: 7%;
+    margin-right: 10px;
+  }
+  .heading-text {
+    margin-top: 8px;
+  }
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+  }
+  .life-at-company-container {
+    display: flex;
+  }
+  .simi-job-container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
